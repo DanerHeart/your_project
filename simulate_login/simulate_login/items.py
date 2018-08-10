@@ -11,4 +11,6 @@ import scrapy
 class SimulateLoginItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    topic = scrapy.Field()
+    name = scrapy.Field()
+    time = scrapy.Field()
